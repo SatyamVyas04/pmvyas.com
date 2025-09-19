@@ -101,7 +101,7 @@ export function AboutSection() {
 	]
 
 	return (
-		<section className="bg-background py-20">
+		<section id="about" className="bg-background py-20">
 			<div className="container mx-auto px-6">
 				<div className="mb-16 text-center">
 					<motion.div

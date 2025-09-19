@@ -160,7 +160,7 @@ export function TestimonialsSection() {
 	)
 
 	return (
-		<section className="bg-background py-20">
+		<section id="testimonials" className="bg-background py-20">
 			<div className="container mx-auto px-6">
 				<div className="mb-16 space-y-6 text-center">
 					<motion.div

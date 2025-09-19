@@ -10,7 +10,10 @@ import { Button } from '@/components/ui/button'
 
 export function HeroSection() {
 	return (
-		<section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 text-white">
+		<section
+			id="hero"
+			className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 text-white"
+		>
 			{/* Background Images */}
 			<div className="absolute inset-0 opacity-80">
 				<div className="grid h-full gap-1 lg:grid-cols-3">

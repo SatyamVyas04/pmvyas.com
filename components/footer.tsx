@@ -30,7 +30,10 @@ export function Footer() {
 								Connect
 							</p>
 							<div className="flex flex-wrap gap-4">
-								<Link href="https://twitter.com/pankajvyas" target="_blank">
+								<Link
+									href="https://www.linkedin.com/in/pankaj-m-vyas-a052b233"
+									target="_blank"
+								>
 									<Button
 										variant="ghost"
 										size="sm"
